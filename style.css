@@ -31,6 +31,13 @@ h1:hover{
 }
 .member{
 	text-align: center;
+	margin-bottom: 60px;
+	height: 300px;
+}
+.member img{
+	max-width: 150px;
+	width: 100%;
+	height: auto;
 }
 .member h5{
 	font-size: 19px;
