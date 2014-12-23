@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>網站開發的第一堂課</title>
+
+   <!-- Bootstrap -->
+   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+   <link href="flexslider.css" rel="stylesheet">
+   <link href="demo.css" rel="stylesheet">
+   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+   <!--[if lt IE 9]>
+     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+   <![endif]-->
+  </head>
+  <body>
+    <div id="header">
+       <div class="container">
+           <div class="row">
+               <div class="col-xs-6 logo">
+                   <a href="/"><img src="img/logo_horizontal.jpg" alt="prototype hacker logo"></a>
+               </div>
+               <div class="col-xs-6 menu">
+                   <ul>
+                      <li><a href="#">ABOUT</a></li>
+                      <li><a href="#">SERVICES</a></li>
+                      <li><a href="#">TEAM</a></li>
+                      <li><a href="#">PORTFOLIO</a></li>
+                   </ul>
+               </div>
+           </div>
+       </div>
+    </div>
+    <section id="slider">
+      <div class="flexslider index-slider">
+        <ul class="slides">
+          <li>
+            <a href="#"><img src="img/vestaportfolio5.jpg"></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/vestaportfolio21.jpg"></a>
+          </li>
+        </ul>
+      </div>      
+    </section>
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 content">
+            <h3 class="title">About Us</h3>
+            <div class="short-line"></div>
+            <h5 class="sub-title">We are especially beautiful and fully responsive. </h5>
+            <p class="desc">Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor. Nulla varius consequat magna, id molestie ipsum volutpat quis. Suspendisse consectetur fringilla suctus. Pellentesque ipsum erat, facilisis ut venenatis eu, sodales vel dolor quis lacinia faucibus, orci ipsum gravida tortor. </p>
+            <img src="img/devices.png">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 content">
+            <h3 class="title">Best Services Around</h3>
+            <div class="short-line"></div>
+            <h5 class="sub-title">Loved by customers, well documented, easy to edit.
+Build your website with our professional Hypnos Theme.</h5>
+            <div class="row">
+              <div class="col-md-4 col-sm-6 service-block">
+                <i class="fa fa-globe"></i>
+                <h6>WEB DESIGN</h6>
+                <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites.</p>
+              </div>
+              <div class="col-md-4 col-sm-6 service-block">
+                <i class="fa fa-user"></i>
+                <h6>User Experience</h6>
+                <p>The different areas of web design include web graphic design; interface design; authoring; user experience design; and seo.</p>                
+              </div>
+              <div class="col-md-4 col-sm-6 service-block">
+                <i class="fa fa-dashboard"></i>
+                <h6>Client Side</h6>
+                <p>The term web design is normally used to describe the design process relating to the front-end (client side) design of a website</p>                
+              </div>                            
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>         
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- flexslider library -->
+    <script src="js/jquery.flexslider-min.js"></script>    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+
+    <script>
+        $(document).ready(function() { 
+        // 當 DOM 載入完成，執行裡面的程式
+          $(window).load(function() {
+            $('.index-slider').flexslider({
+              animation: "slide"
+            });
+          });
+        });        
+    </script>
+
+  </body>
+</html>   
