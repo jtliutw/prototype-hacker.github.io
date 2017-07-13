@@ -543,6 +543,8 @@
     <script>
         $(document).ready(function() { 
         // 當 DOM 載入完成，執行裡面的程式
+        });
+        $(window).load(function(){
             $(".member img").on("error", function(){
                 $(this).attr('src', 'https://unsplash.it/200/200/?gravity=east');
             });
